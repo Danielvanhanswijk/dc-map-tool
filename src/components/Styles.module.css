@@ -1,0 +1,81 @@
+
+.header{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 20vh;
+    background-color: cadetblue;
+}
+
+.header .title{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+
+.map{
+    box-sizing: border-box;
+    float: left;
+    width: 50vw;
+    height: 80vh;
+    background-color: lightgoldenrodyellow;
+}
+
+.map .image{
+    display: block;
+    width: auto;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.map .button_uni{
+    position: absolute;
+    top: 25vh;
+    left: 1vw;
+
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.map .button_kazerne{
+    position: absolute;
+    top: 31vh;
+    left: 1vw;
+
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+/* TODO: width and height same position as map section*/
+.map .canvas{
+    position: absolute;
+    float: left;
+    width: 50vw;
+    height: 80vh;
+}
+
+.sidebar{
+    box-sizing: border-box;
+    float: right;
+    width: 50vw;
+    height: 80vh;
+    background-color: darkred;
+}
+
+.sidebar .title{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
